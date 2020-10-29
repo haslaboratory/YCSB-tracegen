@@ -11,7 +11,7 @@ Function : read、update、insert、delete
 ## To Run :
 (rocksdb.dir : where to put data)
 <br>bin/ycsb load rocksdb -s -P workloads/workloadc -p rocksdb.dir=/tmp/ycsb</br>
-<br>bin/ycsb run rocksdb -s -P workloads/workloadc -p rocksdb.dir=/tmp/ycsb</br>
+bin/ycsb run rocksdb -s -P workloads/workloadc -p rocksdb.dir=/tmp/ycsb
 
 ## For simplicity:
 ./ycsb.sh
