@@ -1,5 +1,5 @@
 # YCSB-tracegen
-Generate a trace file(YCSB-tracegen/test.txt) during running
+Generate a trace file(YCSB-tracegen/test.txt) during running YCSB
 <br>Modification :
 <br>File : YCSB-tracegen/rocksdb/src/main/java/site/ycsb/db/rocksdb/RocksDBClient.java</br>
 Function : read、update、insert、delete
