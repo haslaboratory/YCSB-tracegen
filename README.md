@@ -15,3 +15,8 @@ bin/ycsb run rocksdb -s -P workloads/workloadc -p rocksdb.dir=/tmp/ycsb
 
 #### For simplicity:
 ./ycsb.sh
+
+### run again
+rm /tmp/ycsb/*
+rm test.txt
+
