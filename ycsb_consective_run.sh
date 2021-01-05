@@ -4,7 +4,7 @@ set -x
 DIR=/tmp/ycsb
 
 run() {
-    rm DIR/*
+    rm -rf ${DIR}/*
     bin/ycsb load rocksdb -s -P workloads/$1 -p rocksdb.dir=$DIR
     mv test.txt warm-$1.txt
     bin/ycsb run rocksdb -s -P workloads/$1 -p rocksdb.dir=$DIR
